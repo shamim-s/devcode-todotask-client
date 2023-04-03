@@ -1,0 +1,14 @@
+.active{
+    padding: 8px 40px;
+    text-align: right;
+    border-color: dodgerblue;
+    color: #fff;
+    background-color: #1e90ff;
+    transition: ease-out 0.3s;
+}
+
+@media only screen and (min-width: 1200px) {
+    .active{
+        width: 320px;
+    }
+}
